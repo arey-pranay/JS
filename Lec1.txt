@@ -1,0 +1,8 @@
+Interpreter Vs Compiler
+
+Interpreter coverts to byte code.
+Byte code is quick to convert, but slow to run.
+
+Compiler coverts to machine code.
+Machine code is slow to convert, but quick to run.
+
