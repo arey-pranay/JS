@@ -6,3 +6,5 @@ Byte code is quick to convert, but slow to run.
 Compiler coverts to machine code.
 Machine code is slow to convert, but quick to run.
 
+JIT compiler -> JustInTime compiler. It's a combination of both of the above. It's used in google chrome.
+JavaScript uses interpreter.
