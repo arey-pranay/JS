@@ -30,4 +30,11 @@ There are some things in JS language which are not a part of JS but are provided
 e.g., console, setTimeout, alert, document, etc.
 type window in console to know them, there the var will be printed and let will be printed
 
-
+//Primitives vs References
+Primitives are values that can be copied as they are and changes made in copy reflect only in the copy
+Reference cannot be copied. They are of three types: [Arrays] , {Objects} , and (functions)
+ 
+var a = [1,2,3,4]
+var b = a
+b.pop();
+console.log(a) ==> [1,2,3]
