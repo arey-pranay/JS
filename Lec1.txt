@@ -1,4 +1,4 @@
-Interpreter Vs Compiler
+//Interpreter Vs Compiler (And JIT)
 
 Interpreter coverts to byte code.
 Byte code is quick to convert, but slow to run.
@@ -10,3 +10,24 @@ JIT compiler -> JustInTime compiler. It's a combination of both of the above. It
 JavaScript uses interpreter.
 
 Interpreted byte code gets converted quickly and runs for a while,then when the machine code is ready by compiler, it starts replacing the byte code of interpreter by inspector.
+
+//var vs let (And window object)
+
+var ES5
+function-scoped
+i.e., void function() {for(var i = ...){..)....} it can be used in the entire function 
+joins itself to window object and gets exposed
+
+
+let 
+ES6
+block-scoped or braces-scoped
+it is limited to the immediate {..} 
+doesn't join itself to window object
+
+Window Object
+There are some things in JS language which are not a part of JS but are provided by the browser.
+e.g., console, setTimeout, alert, document, etc.
+type window in console to know them, there the var will be printed and let will be printed
+
+
