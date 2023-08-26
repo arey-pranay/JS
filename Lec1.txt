@@ -8,3 +8,5 @@ Machine code is slow to convert, but quick to run.
 
 JIT compiler -> JustInTime compiler. It's a combination of both of the above. It's used in google chrome.
 JavaScript uses interpreter.
+
+Interpreted byte code gets converted quickly and runs for a while,then when the machine code is ready by compiler, it starts replacing the byte code of interpreter by inspector.
