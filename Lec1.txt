@@ -51,3 +51,8 @@ truth/falsy
 Falsy values include-
 0,"", NULL, undefined, NAN, document.all
 Anything except this is truthy
+
+//The || operator
+falsy || null gives null
+truthy || null gives truthy value
+truthy1 || truthy2 give t1
