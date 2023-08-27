@@ -38,3 +38,16 @@ var a = [1,2,3,4]
 var b = a
 b.pop();
 console.log(a) ==> [1,2,3]
+
+//Conditionals
+
+if(x) {..} else {..}
+
+x can be one of the three things:
+true/false (directly)
+something that translates to true/false
+truth/falsy
+
+Falsy values include-
+0,"", NULL, undefined, NAN, document.all
+Anything except this is truthy
