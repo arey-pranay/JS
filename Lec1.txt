@@ -66,3 +66,12 @@ b+20 will mean 30
 or in face var a = +prompt("Give Number") will also typecast
 
 If you divide even after the remainder is smaller than the divisor, the quotient goes into decimals
+
+//for each loop
+var arr = [1,2,3,4,5,6,7,8,9,0]
+arr.forEach(function(x){console.log(x)})
+
+//map 
+arrayA ke har element pe kuch operation krke usko arrayB ke corresponding indices pe rkhna hai
+
+//filter
