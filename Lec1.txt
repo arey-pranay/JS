@@ -74,5 +74,9 @@ arr.forEach(function(x){console.log(x)})
 //map 
 arrayA ke har element pe kuch operation krke usko arrayB ke corresponding indices pe rkhna hai
 arrayB = arrayA.map(function(x) {return x+2})
+so [3,4,5,6,7,8,9,10,11,2]
 
 //filter
+map with a special filter
+arrayB = arrayA.filter(function(x) {return x>5})
+it'll be [6,7,8,9]
