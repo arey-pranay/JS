@@ -59,7 +59,10 @@ truthy1 || truthy2 give t1
 
 //Taking input through prompt () 
 whatever input you take through this is considered a string always if you 
-var a prompt ("Give Number") ; //10 
+var a = prompt ("Give Number") ; //10 
 a+20 will mean then 1020
 Typecasting var b = Number (a) 
 b+20 will mean 30
+or in face var a = +prompt("Give Number") will also typecast
+
+If you divide even after the remainder is smaller than the divisor, the quotient goes into decimals
