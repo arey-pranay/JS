@@ -73,5 +73,6 @@ arr.forEach(function(x){console.log(x)})
 
 //map 
 arrayA ke har element pe kuch operation krke usko arrayB ke corresponding indices pe rkhna hai
+arrayB = arrayA.map(function(x) {return x+2})
 
 //filter
