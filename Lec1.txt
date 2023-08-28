@@ -56,3 +56,6 @@ Anything except this is truthy
 falsy || null gives null
 truthy || null gives truthy value
 truthy1 || truthy2 give t1
+
+//Taking input through prompt () whatever input you take through this is considered a string always if you var a prompt ("Give Number") ; //10 a+20 will mean then 1020
+Typecasting var b = Number (a) b+20 will mean 30
