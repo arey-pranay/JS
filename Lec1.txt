@@ -98,3 +98,5 @@ var ob{
 }
 console.log(ob.name)
 console.log(ob.intro())
+
+//first class functions
