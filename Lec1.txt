@@ -82,3 +82,9 @@ arrayB = arrayA.filter(function(x) {return x>5})
 it'll be [6,7,8,9]
 
 //reduce
+reduce or shorten the array to a single variable
+var B = arrayB.reduce(function(accumulator,current_value){
+ acc += cv; return accl0
+}, "initial_accumulator"->0
+console.log(B)
+
