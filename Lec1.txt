@@ -88,3 +88,13 @@ var B = arrayB.reduce(function(accumulator,current_value){
 }, "initial_accumulator"->0
 console.log(B)
 
+//objects
+var ob{
+ name: Pranay
+ age: 20
+ intro: function(){
+  return "My Name is Pranay Parikh"
+ }
+}
+console.log(ob.name)
+console.log(ob.intro())
