@@ -101,3 +101,5 @@ console.log(ob.intro())
 
 //first class functions
 In javascript the functions are first class, which means that they can take other functions as their arguments and also can be assigned to other constants in the program.
+
+Undefined is when a variable or function is not given a val, but null is supposed to be explicitly
