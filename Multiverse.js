@@ -103,3 +103,14 @@ console.log(ob.intro())
 In javascript the functions are first class, which means that they can take other functions as their arguments and also can be assigned to other constants in the program.
 
 Undefined is when a variable or function is not given a val, but null is supposed to be explicitly
+
+If you assign value to an undeclared variable, it automatically becomes global and not local.
+
+Hoisting
+When javascript process () is in execution context, it declares or hoists all variable to the top, and the variable is this available throughout the scope, but the actual assignment happens always at the fixed place
+
+Closure
+Function in function, the inner function has access to the outer function variables and state
+
+Access values of a key from an objc
+object.(key) or also object ['key']
