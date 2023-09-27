@@ -114,3 +114,19 @@ Function in function, the inner function has access to the outer function variab
 
 Access values of a key from an objc
 object.(key) or also object ['key']
+
+Sync 
+Run one by one
+Code directly goes to main stack
+
+Async
+Start many together and then keep executing when they're ready
+Code goes to the side stack and then when the main stack is empty, something called event loop checks the side stack to see if anything is to be pushed in the main stack
+
+Promises
+
+In a promise there are three possible states
+Pending, Resolved and rejected
+
+when res is returned, .then is exec
+when rej is returned, .catch us exec
