@@ -102,31 +102,30 @@ console.log(ob.intro())
 //first class functions
 In javascript the functions are first class, which means that they can take other functions as their arguments and also can be assigned to other constants in the program.
 
+//Undefined Vs Null
 Undefined is when a variable or function is not given a val, but null is supposed to be explicitly
-
 If you assign value to an undeclared variable, it automatically becomes global and not local.
 
-Hoisting
+//Hoisting
 When javascript process () is in execution context, it declares or hoists all variable to the top, and the variable is this available throughout the scope, but the actual assignment happens always at the fixed place
 
-Closure
+//Closure
 Function in function, the inner function has access to the outer function variables and state
 
+//Accessing from object vs array 
 Access values of a key from an objc
 object.(key) or also object ['key']
 
-Sync 
+//Sync 
 Run one by one
 Code directly goes to main stack
 
-Async
+//Async
 Start many together and then keep executing when they're ready
 Code goes to the side stack and then when the main stack is empty, something called event loop checks the side stack to see if anything is to be pushed in the main stack
 
-Promises
-
+//Promises
 In a promise there are three possible states
 Pending, Resolved and rejected
-
-when res is returned, .then is exec
-when rej is returned, .catch us exec
+when res is returned, .then is executed 
+when rej is returned, .catch is executed
