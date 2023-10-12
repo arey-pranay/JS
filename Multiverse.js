@@ -129,3 +129,6 @@ In a promise there are three possible states
 Pending, Resolved and rejected
 when res is returned, .then is executed 
 when rej is returned, .catch is executed
+
+//forEach of objects ??
+Object.values(<object-name>).forEach(()=>{});
